@@ -1,0 +1,32 @@
+:root {
+    --carrot-orange: #F7931E;
+    --giants-orange: #F15A24;
+    --rojo-red: #D52B1E;
+    --mikado-yellow: #FFC72C;
+    --viridian-green: #129173;
+    --cobalt-blue: #0047A0;
+    --blue-ncs: #1485B8;
+}
+
+body {
+    color: var(--cobalt-blue);
+    background-color: var(--viridian-green);
+    padding-bottom: 60px;
+}
+
+.footer {
+    height: 2.2em;
+    /* Höhe des Footers */
+    line-height: 1em;
+    /* Zentriert den Text vertikal */
+}
+
+.logo {
+    height: 4rem;
+    width: auto;
+    margin-right: 1rem;
+}
+
+.table td.open-process {
+    background-color: rgb(243, 85, 85) !important;
+}
